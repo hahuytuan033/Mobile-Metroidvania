@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: ef9b82f8f4cdc0442b438b28e2309476
+guid: 2f6e084b5b2cacf4085f513e5b19c8a6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4099418257374492983
-    second: herochar_idle_anim_strip_4_0
-  - first:
-      213: 405284731805963245
-    second: herochar_idle_anim_strip_4_1
-  - first:
-      213: -1624975481447532243
-    second: herochar_idle_anim_strip_4_2
-  - first:
-      213: 7479925196342730779
-    second: herochar_idle_anim_strip_4_3
+      213: 3525453149786773092
+    second: bg_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -96,7 +87,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 10
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -109,12 +100,12 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 45
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -122,7 +113,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: 10
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -148,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: herochar_idle_anim_strip_4_0
+      name: bg_1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 240
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,74 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c6417780d0fb17c0800000000000000
-      internalID: -4099418257374492983
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: herochar_idle_anim_strip_4_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de31f28f05cdf9500800000000000000
-      internalID: 405284731805963245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: herochar_idle_anim_strip_4_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b0b6efbdbbce314996ff855a3957773
-      internalID: -1624975481447532243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: herochar_idle_anim_strip_4_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 393622bff4ca2c645964afd5305acf24
-      internalID: 7479925196342730779
+      spriteID: 466925906fcece030800000000000000
+      internalID: 3525453149786773092
       vertices: []
       indices: 
       edges: []
@@ -239,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ac673e9999306a746b1a4e2e71846295
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -249,10 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      herochar_idle_anim_strip_4_0: -4099418257374492983
-      herochar_idle_anim_strip_4_1: 405284731805963245
-      herochar_idle_anim_strip_4_2: -1624975481447532243
-      herochar_idle_anim_strip_4_3: 7479925196342730779
+      bg_1_0: 3525453149786773092
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

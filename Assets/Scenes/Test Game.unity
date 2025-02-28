@@ -133,8 +133,8 @@ GameObject:
   - component: {fileID: 76451407}
   - component: {fileID: 76451411}
   - component: {fileID: 76451412}
-  - component: {fileID: 76451414}
   - component: {fileID: 76451413}
+  - component: {fileID: 76451414}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -329,9 +329,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2bebe0a82ec6fc41b583dc6a5878946, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kunaiPool: {fileID: 76451414}
   firePoint: {fileID: 543870468}
-  kunaiSpeed: 1
+  kunaiSpeed: 20
 --- !u!114 &76451414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,7 +344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kunaiPrefab: {fileID: 1264182383189989482, guid: b6df169b6a5983c49b63aa86b0929c44, type: 3}
-  poolSize: 10
+  kunaiAmount: 20
 --- !u!1 &543870467
 GameObject:
   m_ObjectHideFlags: 0
